@@ -1,0 +1,57 @@
+﻿@import url("layout.css");
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	background-image: url("../images/background.gif");
+	background-repeat: repeat;
+	background-attachment: scroll;
+}
+table {
+	background-image:url("../images/masthead.gif")
+	
+}
+#main {
+	 border:1px solid #6cc; /*границы таблицы*/
+	width: 780px; /* ширина таблицы   */
+    border-collapse:collapse; /* Данный параметр линии границы таблиц преобразует в одинарную */
+    margin: 5px auto; /*Выравнивание таблицы по центру  и отступ сверху и снизу 20px */
+}
+
+
+#header{
+	height:50px;
+	text-align:center;
+	
+}
+/* Горизонтальная линия верхняя */
+ #dl{
+	  border: none; /* Убираем границу */
+    background-color: green; /* Цвет линии */
+    color: green; /* Цвет линии для IE6-7 */
+    height: 3px; /* Толщина линии */
+ }  
+/* Горизонтальная линия нижняя */
+ hr {
+    border: none; /* Убираем границу */
+    background-color: red; /* Цвет линии */
+    color: red; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+   }
+
+#calculation{
+	border:1px solid #6cc;
+	float:left;
+    width: 300px; 
+    padding: 10px;
+    margin: 10px;
+	   
+   }
+#content{
+	padding:5px;
+}
+#content h2 {
+	text-align: center;
+}
+#footer{
+	text-align:center;
+}
